@@ -11,7 +11,7 @@ module.exports = {
         extensions: ['.js', '.ts', '.tsx']
     },
     entry: ['@babel/polyfill',
-        './main.ts'
+        './main.tsx'
     ],
     output: {
         path: path.join(basePath, 'dist'),
@@ -22,7 +22,7 @@ module.exports = {
         contentBase: './dist', // Content base
         inline: true, // Enable watch and live reload
         host: 'localhost',
-        port: 8080,
+        port: 8090,
         stats: 'errors-only'
     },
     module: {
